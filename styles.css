@@ -2,10 +2,22 @@
 
 * {
   box-sizing: border-box;
-  font-family: OpenDyslexic;
+  font-family: sans-serif;
 }
 
-@font-face {
-  font-family: OpenDyslexic;
-  src: url('OpenDyslexic-Regular.otf');
+.my-div {
+  max-width: 900px;
+}
+
+.img-container {
+  margin-top: 2rem;
+  text-align: center;
+  padding: 1rem;
+}
+
+img {
+  border: 10px solid black;
+  max-width: 100%;
+  display: block;
+  height: auto;
 }
