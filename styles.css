@@ -10,14 +10,17 @@
 }
 
 .img-container {
-  margin-top: 2rem;
-  text-align: center;
+  margin-top: 1rem;
   padding: 1rem;
 }
-
-img {
+.my-img {
+  margin: auto;
   border: 10px solid black;
   max-width: 100%;
   display: block;
   height: auto;
+}
+
+blockquote {
+  font-family: serif;
 }
